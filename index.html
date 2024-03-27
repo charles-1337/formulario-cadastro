@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <title>Cadastro e Listagem de produtos</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="formulario">
+            <h2>Cadastro de produtos</h2>
+            <form id="formProduto">
+                <label for="nomeProduto">Nome do Produto:</label><br>
+                <input type="text" name="nomeProduto" id="nomeProduto"><br><br>
+
+                <label for="descricaoProduto">Descrição do Produto:</label><br>
+                <input type="text" id="descricaoProduto" name="descricaoProduto"><br><br>
+
+                <label for="valorProduto">Valor do Produto:</label><br>
+                <input type="number" id="valorProduto" name="valorProduto" step="0.01"><br><br>
+
+                <label for="disponibilidade">Disponível para Venda:</label><br>
+                <select name="disponibilidade" id="disponibilidade">
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select><br><br>
+                <button type="submit">Cadastrar Produto</button>
+            </form>
+        </div>
+
+        <div class="listaProdutos">
+            <h2>Listagem de Produtos</h2>
+            <ol class="listaOrdenada">
+                <!--aqui é a área onde serão inseridos dinamicamente os produtos -->
+            </ol>
+
+            <button class="btnNovoProduto">Cadastrar Novo Produto </button>
+        </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
