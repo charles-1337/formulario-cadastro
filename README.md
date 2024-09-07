@@ -42,7 +42,14 @@ Abra o arquivo index.html no seu navegador.
 
 **Melhorias Futuras**
 
+
+
 Adicionar a funcionalidade de exclusão e edição de produtos já cadastrados.
 Implementar um sistema de armazenamento local para salvar os produtos entre as sessões.
 Criar uma interface de administração para visualizar e gerenciar os produtos cadastrados.
 Melhorar as validações, como a verificação de produtos duplicados ou a inserção de valores negativos.
+
+
+**link para o projeto :** https://charles-1337.github.io/formulario-cadastro/
+
+**ll**
