@@ -34,9 +34,9 @@ Como Executar o Projeto
 
 
 Clone o repositório:
-bash
-Copiar código
+
 git clone https://github.com/charles-1337/formulario-cadastro.git
+
 Abra o arquivo index.html no seu navegador.
 
 
