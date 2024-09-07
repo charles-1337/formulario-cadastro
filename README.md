@@ -52,4 +52,5 @@ Melhorar as validações, como a verificação de produtos duplicados ou a inser
 
 **link para o projeto :** https://charles-1337.github.io/formulario-cadastro/
 
-**ll**
+![image](https://github.com/user-attachments/assets/6cc38f19-26d2-4862-bf8d-02a91ea382a6)
+
